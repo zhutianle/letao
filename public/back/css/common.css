@@ -108,12 +108,17 @@ a:active {
     color: #fff;
     font-size: 20px;
     line-height: 50px; 
-}
-.lt-content {
-    margin-top: 80px;
-}
+} 
 .pic_left,
 .pic_right {
   width: 45%;
   height: 400px;
 }
+/* 用户管理页 */ 
+.lt-content {
+    margin-top: 60px; 
+}
+.table.table-bordered td {
+    text-align: center;
+    vertical-align: middle;
+  }
