@@ -107,5 +107,13 @@ a:active {
 .lt-mian .lt-top a{
     color: #fff;
     font-size: 20px;
-    line-height: 50px;
+    line-height: 50px; 
+}
+.lt-content {
+    margin-top: 80px;
+}
+.pic_left,
+.pic_right {
+  width: 45%;
+  height: 400px;
 }

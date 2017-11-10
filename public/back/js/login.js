@@ -1,6 +1,6 @@
  
 $(function () {
-
+    // 验证表单
     var $form = $("form");
     $form.bootstrapValidator({ 
         feedbackIcons: {
@@ -51,7 +51,7 @@ $(function () {
         }
         
     });
-
+    //      表单注册一个校验成功事件
     $form.on('success.form.bv', function (e) {
         e.preventDefault();
         //使用ajax提交逻辑
@@ -71,6 +71,7 @@ $(function () {
                 } 
             }
         })
+        
     });
 
       // 重置功能
