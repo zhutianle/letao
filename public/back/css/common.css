@@ -116,9 +116,12 @@ a:active {
 }
 /* 用户管理页 */ 
 .lt-content {
-    margin-top: 60px; 
+    margin-top: 40px; 
 }
 .table.table-bordered td {
     text-align: center;
-    vertical-align: middle;
+    vertical-align: middle; 
   }
+  /* 一级分类 */
+
+  
